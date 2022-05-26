@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+.base{
+  height: 100vh;
+  position: relative
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.vbase{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.content{
+  text-align: center
+}
